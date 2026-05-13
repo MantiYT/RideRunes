@@ -37,7 +37,7 @@ public class GiveCommand implements CommandExecutor {
             }
 
             target.getInventory().addItem(RuneItem.create(type, amount));
-            sender.sendMessage(ColorUtil.colorize("&x&0&3&F&F&0&0▶ &fВыдали " + amount + "x " + type.getDisplayName() + " игроку " + target.getName()));
+            sender.sendMessage(ColorUtil.colorize("&x&0&3&F&F&0&0▶ &fВыдали " + amount + "x " + type.getDisplayName() + " &fигроку " + target.getName()));
         } catch (IllegalArgumentException e) {
             sender.sendMessage(ColorUtil.colorize("&x&F&F&0&0&0&0▶ &fДоступные руны: immortality, recovery"));
         }
