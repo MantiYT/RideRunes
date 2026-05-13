@@ -1,0 +1,6 @@
+name: RideRunes
+version: '${project.version}'
+main: ru.mantiyt.riderunes.RideRunes
+api-version: '1.16'
+commands:
+  riderunes:
